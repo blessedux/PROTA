@@ -6,7 +6,7 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 
 ## Development Phases
 
-### 🧪 Phase 1 — Core UI & Explanation Flow
+### Phase 1 — Core UI & Explanation Flow
 
 **Status**: Not Started  
 **Priority**: High  
@@ -21,13 +21,13 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - [ ] Build onboarding flow
   - [ ] User sets main goals (Health, Career, Relationships, Spirituality, Creative)
   - [ ] Pick daily habit suggestions
-  - [ ] Choose between meal planning only or meal planning + delivery
+  - [ ] Choose plan. meal planning is for free. delivery of food is the business.
 - [ ] Design and implement core UI components
   - [ ] Navigation system
   - [ ] Goal setting interface
   - [ ] Basic task management UI
 
-### 🤖 Phase 2 — AI Companion Integration
+### Phase 2 — AI Companion Integration
 
 **Status**: Not Started  
 **Priority**: High  
@@ -35,7 +35,7 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 
 #### Tasks:
 
-- [ ] Integrate VersaLSDK as AI interface layer
+- [ ] Integrate Vercel SDK for AI interface layer
 - [ ] Research fast open-source LLMs on Hugging Face
 - [ ] Test small models optimized for real-time goal tracking
 - [ ] Fine-tune model with specific traits:
@@ -48,8 +48,11 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
   - [ ] Evening: "Let's reflect on today."
 - [ ] Implement AI conversation interface
 - [ ] Add voice mode for hands-free check-ins
+- [ ] Add notification system
+- [ ] Task Slashing UI (Slash inspo)
+- [ ] Visualization Room (Goal list and duration based navigation in viusally immersive timeline)
 
-### 🍽️ Phase 3 — Meal System
+### Phase 3 — Meal System
 
 **Status**: Not Started  
 **Priority**: Medium  
@@ -58,18 +61,20 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 #### Tasks:
 
 - [ ] Build clean UI for meal management:
-  - [ ] Adding meals manually
-  - [ ] Viewing daily or weekly meal plan
-  - [ ] Giving feedback on each meal
-  - [ ] Meal rating and review system
+  - [ ] Meal recipes and nutritional info
+  - [ ] Meal images
+  - [ ] Meal Carrousel
+  - [ ] daily or weekly meal plan UI
+  - [ ] Simple Feedback on each meal preference
+  - [ ] Caloric tracker of consumed food
 - [ ] Connect to delivery system:
-  - [ ] Integrate with third-party logistics (Uber Direct / local kitchens)
-  - [ ] Users opt-in to meal delivery at checkout or during onboarding
+  - [ ] Integrate with delivery logistics (Dark kitchen + Daily Delivery)
+  - [ ] Users opt-in to meal delivery by clicking on your planned meal for the day, or showing list of ingredients in order to cook yourself and check nutritional info.
   - [ ] Payment & plan selection system
 - [ ] Implement meal preference learning
 - [ ] Create recipe database and meal suggestions
 
-### 🧠 Phase 4 — Smart Assistant Memory & Flow
+### Phase 4 — Smart Assistant Memory & Flow
 
 **Status**: Not Started  
 **Priority**: Medium  
@@ -86,7 +91,7 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - [ ] Create notification-based accountability system
 - [ ] Develop progress visualization and reports
 
-### 🚀 Phase 5 — PWA & Mobile Optimization
+### Phase 5 — PWA & Mobile Optimization
 
 **Status**: Not Started  
 **Priority**: Medium  
@@ -114,7 +119,7 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - [ ] Prepare fundraising materials
 - [ ] Launch beta testing program
 
-### 🏪 Phase 7 — Food Preparation & Delivery
+### Phase 7 — Food Preparation & Delivery
 
 **Status**: Not Started  
 **Priority**: Low  
@@ -129,7 +134,7 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - [ ] Implement quality control
 - [ ] Scale delivery operations
 
-## 🧰 Tech Stack & Priorities
+## Tech Stack & Priorities
 
 ### Core Technologies:
 
@@ -151,14 +156,14 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - [ ] Add comprehensive testing
 - [ ] Set up CI/CD pipeline
 
-## 🎯 Immediate Next Steps
+## Immediate Next Steps
 
 1. **Start with Phase 1**: Build the walkthrough page that shows how PROTA works in 1 minute
 2. **Test UI + flow immediately**: Get user feedback on core experience
 3. **Plug in the AI**: Integrate basic AI functionality
 4. **Iterate fast**: Use feedback to improve rapidly
 
-## 📋 Project Management
+## Project Management
 
 ### Development Principles:
 
@@ -174,9 +179,3 @@ PROTA is the AI-powered companion app for goal tracking, accountability, and mea
 - Meal plan adherence
 - User retention and satisfaction
 - Revenue from meal delivery subscriptions
-
----
-
-**Motto**: "Use what you have. Start where you are. Do what you can. PROTA will help."
-
-_This roadmap is a living document and will be updated as we progress through development phases._
